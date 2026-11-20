@@ -5,7 +5,7 @@
 Перепродавцы продают «Claude» и «GPT», а внутри бывает дешёвая модель, урезанные возможности или скрытый промпт на тысячи токенов, за который платите вы. `modelcheck` проверяет это за минуту и объясняет результат по-русски.
 
 ```bash
-pip install modelcheck-ru
+pip install modelcheck
 export MODELCHECK_KEY=sk-...
 modelcheck run https://api.provider.com/v1 -m anthropic/claude-opus-4.8
 ```
