@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "modelcheck-ru"
-version = "1.0.0"
+name = "modelcheck"
+version = "1.0.1"
 description = "Проверка: настоящая ли нейросеть за API-ключом — Claude, GPT, Gemini, DeepSeek и ещё 14 производителей"
 readme = "README.md"
 requires-python = ">=3.10"
